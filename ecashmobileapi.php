@@ -24,13 +24,13 @@
 		private $password;
 
 		// URL du serveur OAuth d'Ecashmobileapi.
-		private $URL_TOKEN = "http://ecashmobileapi.herokuapp.com/oauth/v2/token";
+		private $URL_TOKEN = "http://api.ecashmobile.com/oauth/v2/token";
 		// private $URL_TOKEN = "localhost:8000/oauth/v2/token";
 		// URL dy payment MoMo via ecashmobileapi.
-		private $URL_PAYMENT = "https://ecashmobileapi.herokuapp.com/api/mtn/withdraw";
+		private $URL_PAYMENT = "http://api.ecashmobile.com/api/mtn/withdraw";
 		// private $URL_PAYMENT = "localhost:8000/api/mtn/withdraw";
 		// Url de test de l'api
-		private $URL_TEST = "https://ecashmobileapi.herokuapp.com/api/articles";
+		private $URL_TEST = "http://api.ecashmobile.com/api/articles";
 		// private $URL_TEST = "localhost:8000/api/articles";
 		
 		private $curlAgent;				// L'instance curl utilisé pour faire les requêtes post.
